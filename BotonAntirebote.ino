@@ -46,13 +46,13 @@ void loop() {
       cuenta++;
       
      Serial.println(cuenta);
-     digitalWrite(13,true);
+     digitalWrite(13,false);
     
       }else{
       cuenta++;
       
      Serial.println(cuenta);
-     digitalWrite(13,false);
+     digitalWrite(13,true);
     
       }
        
